@@ -14,6 +14,11 @@
       "title": "Keenan & Mark!",
       "rating": "4",
       "id": 3
+    },
+    {
+      "title": "Batman v Superman",
+      "rating": "8",
+      "id": 4
     }
   ]
 }

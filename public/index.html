@@ -8,8 +8,8 @@
 <body>
 
     <div class="container">
-        <h1>Hello There!</h1>
-        <p>To get started, edit <code>src/index.js</code>.</p>
+        <h1 id="newTitle">Hello There!</h1>
+        <p id="hideMe">To get started, edit <code>src/index.js</code>.</p>
     <div id="moviesLayout"></div>
 
         <div class="sticky-bottom justify-content-center hide" id="input">
@@ -29,13 +29,26 @@
 
                 </select>
                 <button type="submit" class="btn btn-warning" id="submit">Submit</button>
+
+    </div>
+    </div>
+    <div class="container">
+        <div class="lds-ripple" id="load">
+            <div></div>
+            <div></div>
         </div>
+        <h1 id="loadingHeader" style="color: white;">Hello There!</h1>
     </div>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
     <script src="/main.js"></script>
 </body>
