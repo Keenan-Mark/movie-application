@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>My Application</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hello There!</h1>
+        <p>To get started, edit <code>src/index.js</code>.</p>
+    <div id="moviesLayout"></div>
+
+        <div class="sticky-bottom justify-content-center hide" id="input">
+            <h3>Input your movie recommendations here!</h3>
+            <p id="inputFields">
+                <input type="text" id="title" placeholder="Movie Title">
+                <select id='rating'>
+                    <option value='1'>️🤢</option>
+                    <option value='2'>☹️</option>
+                    <option value='3'>️😝</option>
+                    <option value='4'>🤔 </option>
+                    <option value='5'>🙂</option>
+                    <option value='6'>😁</option>
+                    <option value='7'>🤯</option>
+                    <option value='8'>🤡</option>
+                    <option value='9'>👽</option>
+
+                </select>
+                <button type="submit" class="btn btn-warning" id="submit">Submit</button>
+        </div>
+    </div>
+
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
